@@ -58,4 +58,4 @@ python serverless-detection
 ```
 
 ## The Process 
-![alt text](https://github.com/anchalbhalla/mustache-filter/process-Diagram.png)
+![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/process-Diagram.png)
