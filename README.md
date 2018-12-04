@@ -16,7 +16,11 @@ Create a mustache filter similar to a Snapchat filter by following these steps:
 2. Create a Functions service from the catalog 
     * Create an Action 
 
-3. Copy paste this python code to the Code section of the service:  
+3. Copy paste this python code to the Code section of the service:   
+   
+   * Save the code 
+   
+   * Enable Web Action under Parameters and copy the HTTPS URL
 ``` 
 #
 #
@@ -40,10 +44,7 @@ def main(dict):
   print(mus_urls[index])  
  
   return {'url':mus_urls[index]}
-``` 
-   * Save the code 
-   
-   * Enable Web Action under Parameters and copy the HTTPS URL
+```
    
 4. Download the file, serverless-detection.py 
 
