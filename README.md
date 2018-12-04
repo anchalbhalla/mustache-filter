@@ -44,9 +44,15 @@ def main(dict):
    
    * Save the code 
    
-4. Download the file, serverless-detection.py  
+   * Enable Web Action under Parameters and copy the HTTPS URL
+   
+4. Download the file, serverless-detection.py 
 
-5. Run the following command on the terminal execute the application: 
+5. Edit the file: 
+   
+   * Add your HTTPS URL (Not the REST API link) from the Cloud Functions service
+
+6. Run the following command on the terminal execute the application: 
 ``` 
 python serverless-detection 
 ```
