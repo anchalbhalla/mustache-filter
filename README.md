@@ -2,6 +2,15 @@
 
 Create a mustache filter similar to a Snapchat filter by following these steps: 
 
+
+## Prerequisites 
+
+* Install python version 3.x 
+* Intall opencv 
+* Install numpy
+
+## Steps 
+
 1. Create an IBM Cloud account 
 
 2. Create a Functions service from the catalog 
