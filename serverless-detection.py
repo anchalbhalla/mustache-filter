@@ -12,10 +12,9 @@ conn = http.client.HTTPSConnection("us-south.functions.cloud.ibm.com")
 headers = {
     'accept': "application/json",
     'content-type': "application/json", 
-    # 'api-key': "3823c0d7-38a4-4f1a-931d-ad80483a1246:KZJ1TxjUZU76DeoxcSsdjArmaUld74WEbJte3dJXOFVokxQaSvZv4LhSKFeuYX95"
     }
 
-conn.request("POST", "https://openwhisk.ng.bluemix.net/api/v1/web/Anchal.Bhalla%40ibm.com_dev-us/sending-pic/helloworld.json", headers=headers)
+conn.request("POST", "add-your-https-url-here", headers=headers)
 
 res = conn.getresponse()
 data = res.read()
