@@ -3,7 +3,7 @@
 Create a mustache filter similar to a Snapchat filter by following these steps: 
 
 
-## Prerequisites 
+## Pre requisites 
 
 * Install python version 3.x 
 * Intall opencv 
@@ -58,4 +58,4 @@ python serverless-detection
 ```
 
 ## The Process 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/anchalbhalla/mustache-filter/process-Diagram.png)
