@@ -5,9 +5,18 @@ Create a mustache filter similar to a Snapchat filter by following these steps:
 
 ## Pre requisites 
 
-* Install python version 3.x 
-* Intall opencv 
-* Install numpy
+* Install python version 3.x  
+https://www.python.org/downloads/
+
+* Intall opencv  
+```
+pip install opencv-python
+```
+* Install numpy 
+```
+python3 -m pip install numpy
+```
+
 
 ## Steps 
 
