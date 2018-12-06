@@ -13,7 +13,8 @@ Create a mustache filter similar to a Snapchat filter by following these steps:
 
 1. Create an IBM Cloud account 
 
-2. Create a Functions service from the catalog ![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/function.png)
+2. Create a Functions service from the catalog
+* ![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/function.png)
  
     * Create an Action  
     ![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/create-func.png) 
