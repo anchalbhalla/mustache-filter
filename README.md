@@ -46,7 +46,7 @@ def main(dict):
   return {'url':mus_urls[index]}
 ```
    
-4. Download the file, serverless-detection.py 
+4. Download the file, serverless-detection.py and the haar cascade files (reference: https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
 5. Edit the file: 
    
@@ -54,7 +54,7 @@ def main(dict):
 
 6. Run the following command on the terminal execute the application: 
 ``` 
-python serverless-detection 
+python serverless-detection.py 
 ```
 
 ## The Process 
