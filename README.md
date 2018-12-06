@@ -20,7 +20,7 @@ Create a mustache filter similar to a Snapchat filter by following these steps:
    
    * Save the code 
    
-   * Enable Web Action under Parameters and copy the HTTPS URL
+   * Enable Web Action under Endpoints and copy the HTTPS URL
 ``` 
 #
 #
