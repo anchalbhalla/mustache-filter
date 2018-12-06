@@ -21,7 +21,7 @@ Create a mustache filter similar to a Snapchat filter by following these steps:
    * Save the code 
    
    * Enable Web Action under Endpoints and copy the HTTPS URL 
-   ![alt text] (https://github.com/anchalbhalla/mustache-filter/blob/master/web.png)
+   ![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/web.png)
 ``` 
 #
 #
