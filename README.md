@@ -13,29 +13,23 @@ Create a mustache filter similar to a Snapchat filter by following these steps:
 
 1. Create an IBM Cloud account 
 
-2. Create a Functions service from the catalog
-    * Create an Action 
+2. Create a Functions service from the catalog 
+![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/function.png)
+    . 
+    * Create an Action  
+    ![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/create-func.png) 
+    
 
 3. Copy paste this python code to the Code section of the service:   
    
    * Save the code 
    
    * Enable Web Action under Endpoints and copy the HTTPS URL
-   ![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/web.png) 
+   ![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/web.png) 
    
    
 ``` 
-#
-#
-# main() will be invoked when you Run This Action.
-#
-# @param Cloud Functions actions accept a single parameter,
-#        which must be a JSON object.
-#
-# @return which must be a JSON object.
-#         It will be the output of this action.
-#
-#
+
 import sys 
 import random
 
@@ -47,6 +41,7 @@ def main(dict):
   print(mus_urls[index])  
  
   return {'url':mus_urls[index]}
+  
 ```
    
 4. Download the file, serverless-detection.py and the haar cascade files (reference: https://github.com/opencv/opencv/tree/master/data/haarcascades)
@@ -65,4 +60,4 @@ python serverless-detection.py
 
 
 ## The Process 
-![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/process-Diagram.png)
+![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/process-Diagram.png)
