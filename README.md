@@ -53,13 +53,13 @@ def main(dict):
   
 ```
    
-4. Download the file, serverless-detection.py and the haar cascade files (reference: https://github.com/opencv/opencv/tree/master/data/haarcascades)
+4. Download the serverless-detection.py and the haar cascade files (reference: https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
 5. Edit the file: 
    
-   * Add your HTTPS URL (Not the REST API link) from the Cloud Functions service
+   * Add your HTTPS URL (not the REST API link) from the Cloud Functions service
 
-6. Run the following command on the terminal execute the application: 
+6. Run the following command on the terminal to execute the application: 
 ``` 
 python serverless-detection.py 
 ```
