@@ -66,7 +66,7 @@ python serverless-detection.py
 
 
 ## The Architecture 
-![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/architecture.jpg)
+![alt text](https://github.com/anchalbhalla/mustache-filter/blob/master/images/Picture1.png)
 
 
 ## The Process 
