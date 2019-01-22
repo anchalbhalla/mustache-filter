@@ -1,6 +1,6 @@
 # mustache-filter 
 
-Create a mustache filter similar to a Snapchat filter by following these steps: 
+Create a mustache filter similar to a Snapchat filter by following these steps and visit the IBM developer code pattern for detailed steps (https://developer.ibm.com/tutorials/learn-serverless-computing-app-filter-mustache/): 
 
 
 ## Pre requisites 
